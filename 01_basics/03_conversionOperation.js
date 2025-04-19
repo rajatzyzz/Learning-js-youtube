@@ -38,8 +38,17 @@
 // " rajat " => true
 // */
 
-let string="rajat"
-console.log(string)
-let str=Number(string)
-console.log(typeof str);
-console.log(str);
+// let string="rajat"
+// console.log(string)
+// let str=Number(string)
+// console.log(typeof str);
+// console.log(str);
+
+
+//*************** OPERATIONS **************//
+
+console.log("1" + 3);
+console.log(1 + "3");
+console.log("1" + 3 + 3);
+console.log(1 + 3 + "3");
+
