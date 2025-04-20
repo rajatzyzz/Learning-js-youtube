@@ -1,4 +1,4 @@
-//  Primitive  (call by value)
+//  Primitive  (call by value) ( stack memory)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -34,3 +34,24 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//******* 
+
+// stack(primitive)(we get the copy in the stack) ,heap memory (non)(we get the reference & changes are to be made in the original value)
+
+
+console.log( );
+
+let name1 = "rajat";
+anothername = "monti";
+
+anothername ="chaiaurcode"
+console.log(name1)
+console.log(anothername)
+
+
+
+
+
+
